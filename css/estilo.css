@@ -342,9 +342,25 @@ section {
     margin-top: 20px;
     color: #122f57;
     font-size: 15px;
-    font-family: "Poppins" sans-serif;
+    font-family: "Poppins", sans-serif;
     transition: ease-in-out 0.3s;
 }
 .facts .count-box a:hover {
     color: #2eafec;
+}
+
+/* SKILLS */
+.skills .progress {
+    display: block;
+    background: none;
+    border-radius: 0;
+}
+.skills .progress .skill {
+    padding: 0;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #040b14;
 }
